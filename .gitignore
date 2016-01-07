@@ -1,0 +1,6 @@
+*.class
+*.o.d
+*.o
+*.a
+GamePlatform/proj.android/bin
+GamePlatform/proj.android/ant.properties

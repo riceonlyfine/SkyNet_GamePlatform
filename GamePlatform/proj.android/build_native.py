@@ -17,7 +17,7 @@ def get_num_of_cpu():
 			if 'NUMBER_OF_PROCESSORS' in os.environ:
 				return int(os.environ['NUMBER_OF_PROCESSORS'])
 			else:
-				return 1
+				return 5
 		else:
 			from numpy.distutils import cpuinfo
 			return cpuinfo.cpu._getNCPUs()
@@ -43,6 +43,7 @@ def check_environment_variables():
 
     try:
         NDK_ROOT = os.environ['NDK_ROOT']
+        ''' NDK_ROOT = '/opt/android-ndk-r10b' '''
     except Exception:
         print "NDK_ROOT not defined. Please define NDK_ROOT in your environment"
         sys.exit(1)
