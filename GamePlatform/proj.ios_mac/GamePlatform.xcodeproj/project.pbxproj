@@ -65,13 +65,14 @@
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
+		EF5C9B951C3E7703005DB726 /* bk.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5C9B941C3E7703005DB726 /* bk.png */; };
 		EF68AA111C3BFDD300109126 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF68AA061C3BFDD300109126 /* AppDelegate.cpp */; };
 		EF68AA121C3BFDD300109126 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF68AA081C3BFDD300109126 /* GameScene.cpp */; };
 		EF68AA131C3BFDD300109126 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF68AA0B1C3BFDD300109126 /* Player.cpp */; };
 		EF68AA141C3BFDD300109126 /* Poker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF68AA0D1C3BFDD300109126 /* Poker.cpp */; };
-		EF68AA191C3BFEAE00109126 /* bk.png in Resources */ = {isa = PBXBuildFile; fileRef = EF68AA161C3BFEAE00109126 /* bk.png */; };
 		EF68AA1A1C3BFEAE00109126 /* poker.png in Resources */ = {isa = PBXBuildFile; fileRef = EF68AA171C3BFEAE00109126 /* poker.png */; };
 		EF68AA1B1C3BFEAE00109126 /* strings.xml in Resources */ = {isa = PBXBuildFile; fileRef = EF68AA181C3BFEAE00109126 /* strings.xml */; };
+		EFEF34911C4790B3007A6488 /* GameSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEF348F1C4790B3007A6488 /* GameSocket.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -266,6 +267,7 @@
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		EF5C9B941C3E7703005DB726 /* bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bk.png; sourceTree = "<group>"; };
 		EF68AA061C3BFDD300109126 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		EF68AA071C3BFDD300109126 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
 		EF68AA081C3BFDD300109126 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
@@ -275,9 +277,11 @@
 		EF68AA0C1C3BFDD300109126 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../Classes/Player.h; sourceTree = "<group>"; };
 		EF68AA0D1C3BFDD300109126 /* Poker.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = Poker.cpp; path = ../Classes/Poker.cpp; sourceTree = "<group>"; };
 		EF68AA0E1C3BFDD300109126 /* Poker.h */ = {isa = PBXFileReference; fileEncoding = 2147484705; lastKnownFileType = sourcecode.c.h; name = Poker.h; path = ../Classes/Poker.h; sourceTree = "<group>"; };
-		EF68AA161C3BFEAE00109126 /* bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bk.png; sourceTree = "<group>"; };
 		EF68AA171C3BFEAE00109126 /* poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poker.png; sourceTree = "<group>"; };
 		EF68AA181C3BFEAE00109126 /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		EFEF348F1C4790B3007A6488 /* GameSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameSocket.cpp; sourceTree = "<group>"; };
+		EFEF34901C4790B3007A6488 /* GameSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSocket.h; sourceTree = "<group>"; };
+		EFEF34921C479184007A6488 /* CommonInclude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonInclude.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +351,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EFEF348C1C479080007A6488 /* Net */,
 				EF68AA061C3BFDD300109126 /* AppDelegate.cpp */,
 				EF68AA071C3BFDD300109126 /* AppDelegate.h */,
 				EF68AA081C3BFDD300109126 /* GameScene.cpp */,
@@ -356,6 +361,7 @@
 				EF68AA0C1C3BFDD300109126 /* Player.h */,
 				EF68AA0D1C3BFDD300109126 /* Poker.cpp */,
 				EF68AA0E1C3BFDD300109126 /* Poker.h */,
+				EFEF34921C479184007A6488 /* CommonInclude.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -471,7 +477,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EF68AA161C3BFEAE00109126 /* bk.png */,
+				EF5C9B941C3E7703005DB726 /* bk.png */,
 				EF68AA171C3BFEAE00109126 /* poker.png */,
 				EF68AA181C3BFEAE00109126 /* strings.xml */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
@@ -480,6 +486,16 @@
 			);
 			name = Resources;
 			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		EFEF348C1C479080007A6488 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				EFEF348F1C4790B3007A6488 /* GameSocket.cpp */,
+				EFEF34901C4790B3007A6488 /* GameSocket.h */,
+			);
+			name = Net;
+			path = ../Classes/Net;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -654,11 +670,11 @@
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				EF68AA1A1C3BFEAE00109126 /* poker.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
+				EF5C9B951C3E7703005DB726 /* bk.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
-				EF68AA191C3BFEAE00109126 /* bk.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
@@ -691,6 +707,7 @@
 			files = (
 				EF68AA121C3BFDD300109126 /* GameScene.cpp in Sources */,
 				EF68AA111C3BFDD300109126 /* AppDelegate.cpp in Sources */,
+				EFEF34911C4790B3007A6488 /* GameSocket.cpp in Sources */,
 				EF68AA131C3BFDD300109126 /* Player.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
